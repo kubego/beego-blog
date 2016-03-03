@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/ulricqin/beego-blog/g"
-	"github.com/ulricqin/beego-blog/models/blog"
-	"github.com/ulricqin/beego-blog/models/catalog"
+	"github.com/kubego/beego-blog/g"
+	"github.com/kubego/beego-blog/models/blog"
+	"github.com/kubego/beego-blog/models/catalog"
 )
 
 type MainController struct {
