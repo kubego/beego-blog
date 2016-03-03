@@ -35,7 +35,7 @@ func (this *ApiController) Upload() {
 
 	defer func() {
 		this.Data["json"] = &result
-		this.ServeJson()
+		this.ServeJSON()
 	}()
 
 	_, header, err := this.GetFile("image")
@@ -80,6 +80,6 @@ func (this *ApiController) Markdown() {
 			result["success"] = true
 		}
 		this.Data["json"] = result
-		this.ServeJson()
+		this.ServeJSON()
 	}
 }
